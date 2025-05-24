@@ -1,0 +1,16 @@
+# data & weights
+data/
+models/
+*.json
+*.csv
+mlruns/
+results/api_predictions.jsonl
+
+# notebooks checkpoints
+*.ipynb_checkpoints/
+
+# python artifacts
+__pycache__/
+
+# experimentation notebooks
+additional_experiments/

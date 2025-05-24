@@ -1,0 +1,39 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+torch = "==2.2.0"
+accelerate = "*"
+datasets = "*"
+peft = "==0.10.0"
+bitsandbytes = "*"
+pandas = "*"
+numpy = "<2"
+scikit-learn = "*"
+lxml = "*"
+tqdm = "*"
+fastapi = "*"
+uvicorn = "*"
+sentencepiece = "*"
+transformers = "*"
+
+[dev-packages]
+jupyter = "*"
+ipykernel = "*"
+matplotlib = "*"
+seaborn = "*"
+optuna = "*"
+mlflow = "*"
+black = "*"
+isort = "*"
+evaluate = "*"
+bert-score = "*"
+rouge-score = "*"
+absl-py = "*"
+nltk = "*"
+sacrebleu = "*"
+
+[requires]
+python_version = "3.11"
